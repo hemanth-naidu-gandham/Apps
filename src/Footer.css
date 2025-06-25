@@ -1,10 +1,10 @@
 .footer {
-  background-image: url('https://i.pinimg.com/736x/3f/c0/ac/3fc0acd3b3c7f9633962711f3f7301f4.jpg');
+  background-image: url('https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
-  color: #fff;
+  color: white;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -78,7 +78,7 @@
 }
 
 .footer-heading span {
-  background: linear-gradient(90deg, #00d2ff 0%, red 100%);
+  background: linear-gradient(90deg, #bfff00 0%, red 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -89,7 +89,50 @@
   border-radius: 2px;
 }
 
-.icon-grid {
+.icon-grid {.icon-link {.footer {
+  background-image: url('https://i.pinimg.com/736x/3f/c0/ac/3fc0acd3b3c7f9633962711f3f7301f4.jpg');
+  background-size: cover;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  /* Add animation */
+  animation: moveBg 20s linear infinite;
+}
+
+@keyframes moveBg {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(0,212,255,0.7) 0%, rgba(9,9,121,0.7) 100%);
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(0, 212, 255, 0.35), 0 2px 8px 0 rgba(0,0,0,0.18);
+  backdrop-filter: blur(2px);
+  border: 1.5px solid rgba(0,212,255,0.3);
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.icon-link:hover {
+  background: linear-gradient(90deg, #00d2ff 0%, red 100%);
+  color: white;
+  transform: translateY(-2px) scale(1.10);
+  box-shadow: 0 16px 40px 0 rgba(0, 212, 255, 0.45), 0 4px 16px 0 rgba(0,0,0,0.22);
+}
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px 32px;
@@ -110,7 +153,7 @@
   box-shadow: 0 4px 24px 0 rgba(0, 212, 255, 0.25), 0 1.5px 0 0 rgba(255,255,255,0.2) inset;
   backdrop-filter: blur(2px);
   border: 1.5px solid rgba(0,212,255,0.3);
-  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+  transition: background 5.2s, transform 0.2s, box-shadow 0.2s;
 }
 
 .icon-link i {
