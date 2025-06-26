@@ -34,6 +34,9 @@ function Footer() {
            <a href="https://www.digilocker.com" className="icon-link">
           <i className="fa-solid fa-lock"></i> DigiLocker
            </a>
+           <a href="https://www.amazon.com" className="icon-link"> 
+           <i class="fa-brands fa-amazon"></i> Amazon
+            </a>
         </div>
       </div>
     </footer>
