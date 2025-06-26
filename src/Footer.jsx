@@ -31,6 +31,9 @@ function Footer() {
           <a href="https://www.whatsapp.com" className="icon-link">
           <i class="fa-brands fa-whatsapp"></i>Whatsapp
            </a>
+           <a href="https://www.digilocker.com" className="icon-link">
+          <i className="fa-solid fa-lock"></i> DigiLocker
+           </a>
         </div>
       </div>
     </footer>
