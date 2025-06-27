@@ -4,7 +4,8 @@ function Footer() {
     <footer className="footer">
       <div className="icons">
         <h2 className="footer-heading">
-          <span><center>Follow us on:</center></span>
+          <span><center>GANDHAM HEMANTH</center></span>
+          <span><center>Follow me on:</center></span>
         </h2>
         <div className="icon-grid">
           <a href="https://github.com" className="icon-link">
